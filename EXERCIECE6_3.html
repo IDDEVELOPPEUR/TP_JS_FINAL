@@ -1,0 +1,43 @@
+<!DOCTYPE html>  
+<html lang="fr">  
+<head> 
+    <link rel="stylesheet" href="EXERCIECE6_3.css">
+    <script src="EXERCIECE6_3.js"></script>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>CALCULATRICE</title>  
+</head>  
+<body>  
+   <h2>CALCULATRICE</h2>
+    <table>  
+        <tr>  
+            <td>Premier nombre</td>  
+            <td><input id="premier-number" type="number"></td>  
+        </tr>  
+        <tr>  
+            <td>Deuxième nombre</td>  
+            <td><input id="deuxieme-nombre" type="number"></td>  
+        </tr>  
+        <tr>  
+            <td>Opérateur</td>  
+            <td>  
+                <select id="operateur">  
+                    <option value="+">Addition</option>  
+                    <option value="-">Soust</option>  
+                    <option value="*">Multi</option>  
+                    <option value="/">Division</option>  
+                </select>  
+            </td>  
+        </tr>  
+    </table>  
+
+    <button id="mon-bouton" onclick="calculer()">Calculer</button>  
+    
+    <table>  
+        <tr>  
+            <td>Résultat</td>  
+            <td><input id="resultat" type="text" readonly></td>  
+        </tr>  
+    </table>  
+</body>  
+</html>

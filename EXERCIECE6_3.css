@@ -1,0 +1,66 @@
+
+    body {  
+        background-color: #f0f0f0;  
+        font-family: 'Arial', sans-serif;  
+        display: flex;  
+        justify-content: center;  
+        align-items: center;  
+        height: 100vh;  
+        margin: 0;  
+        color: #333;  
+    }  
+
+    table {  
+        background: linear-gradient(135deg, #ffffff, #f9f9f9);  
+        border-radius: 10px;  
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);  
+        padding: 20px;  
+        margin: 20px;
+    }  
+
+    td {  
+        padding: 10px;  
+    }  
+
+    input[type="number"], input[type="text"], select {  
+        width: 100%;  
+        padding: 10px;  
+        border: 2px solid #3f51b5;  
+        border-radius: 5px;  
+        box-shadow: 0 2px 4px rgba(88, 21, 21, 0.1);  
+        transition: border-color 0.3s, box-shadow 0.3s;  
+    }  
+
+    input[type="number"]:focus, input[type="text"]:focus, select:focus {  
+        border-color: #3f51b5;  
+        box-shadow: 0 0 8px rgba(63, 81, 181, 0.5);  
+        outline: none;  
+    }  
+
+    button {  
+        background-color: #3f51b5;  
+        color: white;  
+        padding: 10px 20px;  
+        border: none;  
+        border-radius: 5px;  
+        cursor: pointer;  
+        font-size: 16px;  
+        transition: background-color 0.3s, transform 0.3s;  
+        margin-top: 10px;  
+    }  
+
+    button:hover {  
+        background-color: #303f9f;  
+        transform: translateY(-2px);  
+    }  
+
+    button:active {  
+        background-color: #00d504;  
+        transform: translateY(1px);  
+    }  
+
+    h2 {  
+        text-align: center;  
+        margin-bottom: 20px;  
+        color: #0a175a;  
+    }  
