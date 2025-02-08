@@ -56,7 +56,7 @@
 
     button:active {  
         background-color: #00d504;  
-        transform: translateY(1px);  
+        transform: translateY(2px);  
     }  
 
     h2 {  

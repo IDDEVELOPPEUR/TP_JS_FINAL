@@ -1,13 +1,13 @@
  #AB{  
     background-color: #4CAF50;  
     color: white;  
-    padding: 15px 30px;  
+   
     border: none;  
     border-radius: 5px;  
     cursor: pointer;  
     font-size: 18px;  
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;  
-    margin-right: 10px;  
+   
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
 }  
 
@@ -18,7 +18,7 @@
 }  
 
 #AB:active {  
-    background-color: #388e3c;  
+    background-color: #2d28c6;  
     transform: translateY(2px);  
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
 }  
@@ -26,7 +26,7 @@
 #SB {  
     background-color: #f44336;  
     color: white;  
-    padding: 15px 30px;  
+ 
     border: none;  
     border-radius: 5px;  
     cursor: pointer;  
@@ -42,7 +42,7 @@
 }  
 
 #SB:active {  
-    background-color: #c62828;  
+    background-color: #2d28c6;  
     transform: translateY(2px);  
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
 }
