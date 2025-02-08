@@ -1,6 +1,6 @@
  
 function calculer() {  
-    var premierNombre = parseFloat(document.querySelector("#premier-number").value);  
+    var premierNombre = parseFloat(document.querySelector("#premier-nombre").value);  
     var deuxiemeNombre = parseFloat(document.querySelector("#deuxieme-nombre").value);  
     var operateur = document.querySelector("#operateur").value;  
    
@@ -17,13 +17,13 @@ function calculer() {
             break;  
         case "/":  
             if (deuxiemeNombre === 0) {  
-                alert("Division par zéro!");  
+                alert("On ne peut pas diviser par 0");  
                 return;  
             }  
             resultat = premierNombre / deuxiemeNombre;  
             break;  
         default:  
-            alert("Opérateur inconnu!");  
+            alert("Veillez selectionner un operateur SVP !");  
             return;  
     }  
 
